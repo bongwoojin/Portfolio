@@ -33,7 +33,6 @@ a{text-decoration:none;}
 .inner{position:relative; width:90vw; height:100%; margin:0 auto;}
 
 /*섹션 설정 & 배경 설정*/
-
 section{
     position:relative; 
     height:100%;
@@ -65,7 +64,6 @@ header{
     height:60px; 
     background-color:#C8B6A6;  
     box-shadow:0 2px 2px rgba(0,0,0,0.2);
-
     z-index:99;
 }
 .header_nav ul{
@@ -93,8 +91,6 @@ header{
 .header_nav ul li a.active{
     color:black;
 }
-
-
 .header_nav ul li .circle{
     position:absolute;
     left:45%;
@@ -158,33 +154,8 @@ header{
     font-weight:bold;
     color:#000;
 }
+
 /*첫번째 섹션*/
-.svgBox{
-    position:absolute;
-    bottom:5%;
-    right:5%;
-    width:300px;
-    height:200px;
-}
-.svgBox svg{
-    position:absolute;
-    fill:none;
-    stroke:url(#col);
-    stroke-width:8;
-    transform: scale(3);
-    stroke-dasharray:60 172;
-    stroke-linecap:round;
-    animation:oj 4s linear infinite;
-}
-.svgBox svg:nth-child(1){
-    animation:none;
-    stroke:#555;
-    stroke-dasharray:none;
-}
-@keyframes oj{
-    0%{stroke-dashoffset:0;}
-    100%{stroke-dashoffset:232;}
-}
 .main_content{
     display:flex;
     flex-direction:column;
@@ -217,7 +188,6 @@ header{
     font-size:6.2500vw;
     margin-bottom:-5%;
 }
-
 .main_content img{
     position:absolute;
     width:31.2500vw;
@@ -702,10 +672,6 @@ header{
 .main_content > p{
     font-size:10em;
 }
-.img_ani{
-    width:80vw;
-    height:50vw;
-}
 .main_content img{
     width:80.0000vw;
 }
@@ -714,9 +680,6 @@ header{
 }
 .main_content .ment_01{
     font-size:9.6000vw;
-}
-.svgBox{
-    display:none;
 }
 .img_left, .img_left_01{
     margin-left:-45%;
